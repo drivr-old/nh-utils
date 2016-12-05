@@ -22,17 +22,17 @@
 
         public bool IsDebugEnabled
         {
-            get { return false; }
+            get { return true; }
         }
 
         public bool IsInfoEnabled
         {
-            get { return false; }
+            get { return true; }
         }
 
         public bool IsWarnEnabled
         {
-            get { return false; }
+            get { return true; }
         }
 
         public static void FlushMessages()
